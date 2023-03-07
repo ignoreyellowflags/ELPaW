@@ -15,6 +15,6 @@ Goal: Find out
 In classic ELP algorithm edges are not weighted, due to implement community detection algorithms in digital we need to establish edge weights and make it correctly.
 By the way, for edge weight we use mutual information (MI) between nodes.
 
-$\MI^{t}((F_{p},F_{q}),Y) = \sum _{(i,j)\in (F_{p},F_{q})}\sum _{l\in \{0,1\}}p^{t}((i,j),l)\log \frac{p^{t}((i,j),l)}{p^{t}(i,j)p^{t}(l)}
+$$MI^{t}((F_{p},F_{q}),Y) = \sum _{(i,j)\in (F_{p},F_{q})}\sum _{l\in \{0,1\}}p^{t}((i,j),l)\log \frac{p^{t}((i,j),l)}{p^{t}(i,j)p^{t}(l)}$$
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
