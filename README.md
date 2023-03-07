@@ -2,7 +2,7 @@
 
 #GraphTheory
 
-Community detection near-linear algorithm for discovering the structure of complex networks.
+Community detection near-linear algorithm for discovering the structure of complex networks. <br />
 Based on: https://arxiv.org/pdf/1606.03832.pdf <br />
 
 Adaptation Evedential Label Propagation Algorithm, based on theory of beliefs (Dempster–Shafer
