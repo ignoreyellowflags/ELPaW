@@ -25,26 +25,22 @@ Instead it, we implement this:
 
 $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )$$
 
-Input: Graph G(V, E).<br />
+Input: Graph G(V, W(E)).<br />
 &nbsp;Parameters:<br />
-η: the parameter to adjust the node influence in Eq. (9)
-T: the maximum number of iteration steps
-α0, γ: the parameters in Eq. (12) to define mass functions
-Initialization:
-(1). Calculate the influence of node j to node i, δij .
-(2). Initialize a unique label of each node in the network.
-The matrix S = {sij} is initially set to be an identity matrix.
-repeat
-(1). Arrange the nodes in the network in a random order
-and save them in set σ orderly.
-(2). Update the label of node i one by one according to the
-order in σ. One can then assign node i to the community
-ωk with the highest plausibility and update the matrix S
-using Eqs. (20) and (21).
-until the maximum iteration number is reached or all
-domain labels become stable.
-Output: For each node, calculate the bba mi according
-to the labels of each node i, and output the bba matrix
+η: the parameter to adjust the node influence <br />
+T: the maximum number of iteration steps <br />
+α0, γ: the parameters in Eq. (12) to define mass functions <br />
+Initialization: <br />
+(1). Calculate the influence of node j to node i, δij .<br />
+(2). Initialize a unique label of each node in the network. <br />
+The matrix S = {sij} is initially set to be an identity matrix. <br />
+repeat <br />
+(1). Arrange the nodes in the network in a random order and save them in set σ orderly. <br />
+(2). Update the label of node i one by one according to the order in σ. One can then assign node i to the community
+ωk with the highest plausibility and update the matrix S using Eqs. (20) and (21) until the maximum iteration number is reached or all
+domain labels become stable. <br />
+Output: For each node, calculate the bba mi according <br />
+to the labels of each node i, and output the bba matrix <br />
 M = {mi}.
 
 
