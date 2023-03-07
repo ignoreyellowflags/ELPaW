@@ -3,6 +3,7 @@
 #GraphTheory
 
 Community detection near-linear algorithm for discovering the structure of complex networks.
+Based on: https://arxiv.org/pdf/1606.03832.pdf <br />
 
 Adaptation Evedential Label Propagation Algorithm, based on theory of beliefs (Dempster–Shafer
 Theory/DST) for modeling uncertainity, node influence calculations and searching user behavioral patterns on site/mobile app using Google Analytics or mobile tracker data.
