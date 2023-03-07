@@ -17,9 +17,13 @@ By the way, for edge weight we use mutual information (MI) between nodes.
 
 $$MI^{t}((F_{p},F_{q}),Y) = \sum _{(i,j)\in (F_{p},F_{q})}\sum _{l\in \{0,1\}}p^{t}((i,j),l)\log \frac{p^{t}((i,j),l)}{p^{t}(i,j)p^{t}(l)}$$
 
-ELP use formula to calculate node influence:
+ELP use formula to calculate local density:
 
 $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }$$
+
+Instead it, we implement this:
+
+$$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )$$
 
 
 
