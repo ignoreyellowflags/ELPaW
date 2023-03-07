@@ -1,0 +1,10 @@
+NodeW {nid = 1, label = "1", nb = fromList [(2,0.3),(4,0.1),(5,0.4),(7,0.5),(8,0.9),(9,0.2)]}
+NodeW {nid = 2, label = "5", nb = fromList [(1,0.3),(3,0.4),(5,0.7)]}
+NodeW {nid = 3, label = "5", nb = fromList [(2,0.4),(4,0.4),(5,0.1)]}
+NodeW {nid = 4, label = "5", nb = fromList [(1,0.1),(3,0.4),(5,0.3),(10,0.1)]}
+NodeW {nid = 5, label = "5", nb = fromList [(1,0.4),(2,0.7),(3,0.1),(4,0.3)]}
+NodeW {nid = 6, label = "1", nb = fromList [(7,0.6),(8,0.4),(9,0.3)]}
+NodeW {nid = 7, label = "1", nb = fromList [(1,0.5),(6,0.6),(9,0.1)]}
+NodeW {nid = 8, label = "1", nb = fromList [(1,0.9),(6,0.4),(9,0.5),(10,0.5)]}
+NodeW {nid = 9, label = "1", nb = fromList [(1,0.2),(6,0.3),(7,0.1),(8,0.5)]}
+NodeW {nid = 10, label = "1", nb = fromList [(4,0.1),(8,0.5)]}
