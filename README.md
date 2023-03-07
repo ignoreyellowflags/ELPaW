@@ -27,7 +27,8 @@ $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\le
 
 Input: weighted Graph G(V, W(E)), W(E) weight of edge E.<br />
 &nbsp;Parameters:<br />
-&nbsp;&nbsp;$$\eta $$: the parameter to adjust the density influence <br />
+&nbsp;&nbsp;η: the parameter to adjust the density influence <br />
+&nbsp;&nbsp;ζ: the parameter to adjust the weight influence <br />
 &nbsp;&nbsp;T: the maximum number of iteration steps <br />
 α0, γ: the parameters in Eq. (12) to define mass functions <br />
 Initialization: <br />
