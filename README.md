@@ -23,12 +23,12 @@ $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }$$
 
 Instead it, we implement this:
 
-$$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )$$
+$$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )^{1-\zeta }$$
 
 Input: Graph G(V, W(E)).<br />
 &nbsp;Parameters:<br />
-η: the parameter to adjust the node influence <br />
-T: the maximum number of iteration steps <br />
+&nbsp;&nbsp;$$ \eta$$: the parameter to adjust the density influence <br />
+&nbsp;&nbsp;T: the maximum number of iteration steps <br />
 α0, γ: the parameters in Eq. (12) to define mass functions <br />
 Initialization: <br />
 (1). Calculate the influence of node j to node i, δij .<br />
