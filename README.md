@@ -26,7 +26,7 @@ Instead it, we implement this:
 $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )$$
 
 Input: Graph G(V, E).
-\t Parameters:
+  Parameters:
 η: the parameter to adjust the node influence in Eq. (9)
 T: the maximum number of iteration steps
 α0, γ: the parameters in Eq. (12) to define mass functions
