@@ -25,7 +25,7 @@ Instead it, we implement this:
 
 $$ \delta _{uv} = sim(u,v)\left ( \frac{\rho _{v}}{\rho_{u}} \right )^{\eta }\left (\frac{Ew_{v}}{Ew_{u}} \right )^{1-\zeta }$$
 
-Input: Graph G(V, W(E)).<br />
+Input: weighted Graph G(V, W(E)), W(E) weight of edge E.<br />
 &nbsp;Parameters:<br />
 &nbsp;&nbsp;$$\eta $$: the parameter to adjust the density influence <br />
 &nbsp;&nbsp;T: the maximum number of iteration steps <br />
