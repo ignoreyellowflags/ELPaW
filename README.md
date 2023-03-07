@@ -35,14 +35,13 @@ Input: weighted Graph G(V, W(E)), where W(E) weight of edge E.<br />
 &nbsp;&nbsp;(1). Calculate the influence of node j to node i, δij .<br />
 &nbsp;&nbsp;(2). Initialize a unique label of each node in the network. <br />
 &nbsp;&nbsp;The matrix S = {sij} is initially set to be an identity matrix. <br />
-repeat <br />
-(1). Arrange the nodes in the network in a random order and save them in set σ orderly. <br />
-(2). Update the label of node i one by one according to the order in σ. One can then assign node i to the community
+&nbsp;&nbsp;repeat <br />
+&nbsp;(1). Arrange the nodes in the network in a random order and save them in set σ orderly. <br />
+&nbsp;(2). Update the label of node i one by one according to the order in σ. One can then assign node i to the community
 ωk with the highest plausibility and update the matrix S using Eqs. (20) and (21) until the maximum iteration number is reached or all
 domain labels become stable. <br />
-Output: For each node, calculate the bba mi according <br />
-to the labels of each node i, and output the bba matrix <br />
-M = {mi}.
+&nbsp;&nbsp;Output:  <br />
+&nbsp;For each node, calculate the bba (mass) according to the labels of each node i, and output the bba matrix M = {mi}.
 
 
 
