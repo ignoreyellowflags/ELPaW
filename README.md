@@ -8,9 +8,9 @@ Adaptation Evedential Label Propagation Algorithm, based on theory of beliefs (D
 Theory/DST) for modeling uncertainity, node influence calculations and searching user behavioral patterns on site/mobile app using Google Analytics or mobile tracker data.
 
 Goal: Find out 
--behaviroal patterns among users who have comitted online conversions on site/mobile app
--how many patterns exist
--how patterns distinguish each other
+- behaviroal patterns among users who have comitted online conversions on site/mobile app
+- how many patterns exist
+- how patterns distinguish each other
 
 In classic ELP algorithm edges are not weighted, due to implement community detection algorithms in digital we need to establish edge weights and make it correctly.
 By the way, for edge weight we use mutual information (MI) between nodes.
